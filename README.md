@@ -1,5 +1,5 @@
 # misc-tools
-A bunch of miscellaneous tools written in Python.
+A bunch of miscellaneous tools written in Python. All require Python 3 and nothing else.
 
 ####ico2str
 Convert an ICO file to a Base64 encoded string and vice versa. Useful when you want to embed an icon into the source code.
