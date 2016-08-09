@@ -2,7 +2,7 @@
 A bunch of miscellaneous tools written in Python. All require Python 3 and nothing else.
 
 ####ico2str
-Convert an ICO file to a Base64 encoded string and vice versa. Useful when you want to embed an icon into the source code.
+Convert an ICO file to a Base64 encoded string and vice versa. Useful when you want to embed an icon into the source code. A simple wrapper around the Base64 encode/decode functions.
 
 How to use: Pass input file (.ico or .txt) as an argument to the script. A new file will be created in the same directory as the input file. "foo.ico" produces "foo.txt" and vice versa.
 
@@ -11,7 +11,7 @@ python ico2str.py foo.ico
 ```
 
 ####unicodify
-Fix Turkish text broken by ANSI encoding. Useful for subtitle files.
+Fix Turkish text broken by ANSI encoding. Useful for subtitle files. A simple wrapper around the translate function.
 
 How to use: Pass input file (text file with any extension) as an argument to the script. The input file will be overwritten.
 
